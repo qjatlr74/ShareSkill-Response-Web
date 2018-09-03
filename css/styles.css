@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*navbar*/
+
+.navbar {
+	padding: 0px 16px;
+}
+
+.navbar-brand {
+	line-height: 60px;
+	padding: 0;
+	margin-right: 32px;
+	color: #181818;
+}
+
+.navbar-collapse {
+	width: 100%;
+}
+
+.menu-left {
+	float: left;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu-left a {
+	float: left;
+	display: inline;
+	text-decoration: none;
+	font-size: 16px;
+	color: #8B8F90;
+}
+
+.menu-right {
+	float: right;
+	position: absolute;
+	right: 10px;
+	list-style-type: none;
+	margin: 0px;
+	margin: 0px 0px 0px 70%;
+}
+
+.menu-right a {
+	float: right;
+	display: inline;
+	text-decoration: none;
+	font-size: 16px;
+	color: #8B8F90;
+}
+
+/*carousel*/
+
+.carousel-item {
+	height: 400px;
+	overflow: hidden;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.header {
+	font-size: 32px;
+	font-weight: 400;
+	color: white;
+	margin: 0;
+}
+
+.semi-header {
+	font-size: 22px;
+	color: white;
+	margin-top: 18px;
+	margin-bottom: 48px;
+}
+
+.class-find {
+	text-decoration: none;
+	font-size: 16px;
+	padding: 10px 30px;
+	color: white;
+	background-color: #5900E7;
+	border-radius: 2px;
+}
+
+.class-find:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.first_slide {
+	background-image: url("../images/guitar.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left center;
+}
+
+.second_slide {
+	background-image: url("../images/makeup.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.third_slide {
+	background-image: url("../images/cooking.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.alert {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 16px;
+}
+
+.container {
+	margin-bottom: 70px;
+}
+
+.div-link {
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+	margin: 0px 0px 20px 0px;
+}
+
+.link {
+	text-decoration: none;
+	color: #4A4A4A;
+}
+
+.link:hover {
+	text-decoration: none;
+	color: #4A4A4A;
+}
+
+.course-title {
+	font-size: 18px;
+	color: #4A4A4A;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+
+.icon-name {
+	margin-bottom: 10px;
+}
+
+.icon {
+	margin-left: 10px;
+}
+
+.name {
+	display: inline;
+	font-size: 13px;
+	color: #4A4A4A;
+	padding-left: 5px;
+	margin: 0px;
+	line-height: 20px;
+	vertical-align: middle;
+}
